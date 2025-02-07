@@ -1,0 +1,17 @@
+echo "
+# Ignore virtual environments
+.pip_venv/
+.venv/
+
+# Ignore large files
+chroma_db/
+*.sqlite3
+*.dylib
+*.so
+model.gguf
+
+# Ignore logs
+*.log
+__pycache__/
+" > .gitignore
+
